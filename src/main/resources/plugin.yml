@@ -1,0 +1,11 @@
+name: WeaponSupplier
+version: @version@
+main: com.giithub.chaosindustory.weaponsupplier.WeaponSupplier
+api-version: 1.15
+commands:
+  team_division:
+    description: make a player to a team.
+    usage: /team_division [team] [player]
+    permission: weaponsupplier.team_division
+    permission-message: Sorry, you cannot join this game. Try later.
+
